@@ -17,11 +17,20 @@ même journée. Pouvez-vous exprimer cette durée en heure et en minutes? */
     System.out.println("Quel est  l’instant de fin de l’événement en minute?");
     minFin = s.nextInt();
 
-    //operation
-    resH = hFin - hDebut;
-    resM = minFin - minDebut;
+
+    System.out.println("heure debut: "+hDebut );
+    System.out.println("heure fin: "+hFin );
+
+    //Operation
+
+    int debutMinute = 60 * hDebut + minDebut;
+    int finMinutes = 60 * hFin + minFin;
+    int duree =  finMinutes - debutMinute;
 
     //affichage
-    System.out.println("ça donne " + resH + " heures et " + resM + " minutes comme durée.");
-
+    System.out.println(duree);
+    System.out.print(duree/60);
+    System.out.print("h");
+    System.out.print(duree%60);
+    
 }
