@@ -9,7 +9,16 @@ void main() {
     b = s.nextInt();
     c = s.nextInt();
     d = s.nextInt();
+/*
+//sans calucul
+int temp = a;
+a = d;
+d=temp;
 
+temp = b;
+b = c;
+c = temp;
+*/
     //Operation imagine a=1,b=2,c=3,d=4
     a = a + d; // 1+4 = 5
     d = a - d; // 5-4 = 1
