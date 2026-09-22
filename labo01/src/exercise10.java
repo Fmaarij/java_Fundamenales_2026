@@ -14,11 +14,11 @@ void main() {
     d = s.nextInt(); //4
 
     //operation
-    temp = a; //1
-    a = d; //4
-    d = c; //3
-    c = b; //2
-    b = temp; //1
+    temp = d; //1
+    d = c; //4
+    c = b; //3
+    b = a; //2
+    a = temp; //1
     System.out.print(a);
     System.out.print(" ");
     System.out.print(b);
