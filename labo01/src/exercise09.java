@@ -1,4 +1,6 @@
 void main() {
+    /* Ecrire un programme qui inverse l’ordre des valeurs de 4 variables entières. Si, au départ les
+    variables ont les valeurs 1 2 3 4, elles auront les valeurs 4 3 2 1. */
     int a, b, c, d;
 
     Scanner s = new Scanner(System.in);
