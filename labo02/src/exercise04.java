@@ -9,7 +9,7 @@ void main() {
     int nbr2 = s.nextInt();
     int resSoustration;
     //Operation
-    if (nbr1 > nbr2) {
+    if (nbr2 < nbr1) {
         resSoustration = nbr1 - nbr2;
     } else {
         resSoustration = nbr2 - nbr1;
