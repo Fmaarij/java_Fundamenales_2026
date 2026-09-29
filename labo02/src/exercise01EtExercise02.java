@@ -24,8 +24,8 @@ void main() {
             }
             System.out.println(" mariee");
             //si a = 5 b = 5 ça affiche  vivementmariee
-            //si a = 5 b = 2 ça affiche  vivelamariee
-            //si a = 1 b = 0 ça affiche  lamariee
+            //si a = 5 b = 2 ça affiche  vivela mariee
+            //si a = 1 b = 0 ça affiche  rien
 
         }
     }
