@@ -5,7 +5,7 @@ void main() {
     Scanner s = new Scanner(System.in);
     System.out.println("Entrer le nombre dont vous voulez obtenir le valeur absolu");
     int nbr = s.nextInt();
-    int nbrObsolu;
+    int nbrObsolu = 0;
     if (nbr < 0) {
         nbrObsolu = -nbr;
     }
