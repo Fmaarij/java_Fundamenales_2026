@@ -6,11 +6,7 @@ void main() {
     System.out.println("Entrer le nombre dont vous voulez obtenir le valeur absolu");
     int nbr = s.nextInt();
     int nbrObsolu;
-    if (nbr > 0) {
-        nbrObsolu = -nbr;
-    } else if (nbr == 0) {
-        nbrObsolu = nbr;
-    } else {
+    if (nbr < 0) {
         nbrObsolu = -nbr;
     }
     System.out.println("La valeurs absolu de " + nbr + " = " + nbrObsolu + ".");
