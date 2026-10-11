@@ -3,20 +3,17 @@ void main() {
       comparaisons et des négations changements de signe). Par exemple si on somme 5 et-7, la réponse
       est négative.*/
     Scanner s = new Scanner(System.in);
-
+    System.out.println("Veuillez entrez 2 chiffre");
     int a = s.nextInt();
     int b = s.nextInt();
 
     //opération et affichage
-    if (a > 0 && b > 0) {
+    if (a > -b) {
         System.out.println("Le signe de la somme de " + a + " et " + b + " = '+'.");
-        System.out.println(a + b);
-    } else if ((a > 0 && b < 0) && (a > b) || a < 0 && b < 0) {
+    } else if (a < -b) {
         System.out.println("Le signe de la somme de " + a + " et " + b + " = '-'.");
-        System.out.println(a + b);
     } else {
         System.out.println("Le signe de la somme de " + a + " et " + b + " = '0'.");
-        System.out.println(a + b);
     }
 
 }
