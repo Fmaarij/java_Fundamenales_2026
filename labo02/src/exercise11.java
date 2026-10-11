@@ -2,9 +2,10 @@ void main() {
     /*  Ecrire un programme qui reçoit 3 nombres en entrée et qui affiche les deux plus grands. identifiez
         d'éventuels cas particuliers. */
 
-    int a = 200;
-    int b = 30;
-    int c = 10000;
+    Scanner s = new Scanner(System.in);
+    int a = s.nextInt();
+    int b = s.nextInt();
+    int c = s.nextInt();
     int max1 = 0;
     int max2 = 0;
 
