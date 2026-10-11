@@ -17,6 +17,7 @@ void main() {
     double facture = 0;
     double forfait = ((x - 500) * 10 / 100) * 1.25;
 
+    //opération et affichage
     if (x <= 50) {
         facture = (int) prix_jour * n;
         System.out.println("La location pour " + n + " jours et pour " + x + " kilométres à parcourir/parcouru vous côute " + facture+".");
