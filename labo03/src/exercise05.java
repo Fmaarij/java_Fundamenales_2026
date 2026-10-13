@@ -10,12 +10,11 @@ void main() {
     int cptFinal = 0;
     int somme = 0;
     double moyenne;
-    int arret = -1;
 
     Scanner s = new Scanner(System.in);
     System.out.println("Entrez les chiffre dont la moyenne vous voulez savoir, pour arreter entre -1 : ");
     int n = 0;
-    while (n != arret) {
+    while (n != -1) {
         cptFinal = cpt;
         somme = somme + n;
         n = s.nextInt();
