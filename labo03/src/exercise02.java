@@ -13,7 +13,7 @@ void main() {
     int somme = 0;
     double moyenne = 0;
 
-    while (n != cpt) {
+    while (n != cpt) {//n != cpt ok mais les developpeur font comme cpt<n
 
         somme += s.nextInt();
 
