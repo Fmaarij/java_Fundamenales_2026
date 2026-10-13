@@ -9,7 +9,7 @@ void main() {
     int cpt = 0;
     int cptFinal = 0;
     int somme = 0;
-    int moyenne = 0;
+    double moyenne;
     int arret = -1;
 
     Scanner s = new Scanner(System.in);
@@ -23,8 +23,7 @@ void main() {
     }
     System.out.println("Compteur : " + cptFinal);
     System.out.println("Somme : " + somme);
-    moyenne = somme / cptFinal;
-    System.out.println("Moyenne : " + moyenne);
-
+    moyenne = (double)somme / cptFinal;
+    System.out.println("Moyenne : " + (double)moyenne);
 
 }
