@@ -24,6 +24,6 @@ void main() {
     System.out.println("Compteur : " + cptFinal);
     System.out.println("Somme : " + somme);
     moyenne = (double)somme / cptFinal;
-    System.out.println("Moyenne : " + (double)moyenne);
+    System.out.println("Moyenne : " + moyenne);
 
 }
